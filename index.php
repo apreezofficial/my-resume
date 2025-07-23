@@ -86,7 +86,6 @@
           <span class="px-3 py-1 rounded-full text-sm border border-teal-200 bg-teal-50 text-teal-700">OpenAI API</span>
         </div>
       </div>
-
       <div>
         <a href="https://drake.zya.me" target="_blank" class="flex items-center gap-2 text-lg font-semibold text-teal-700 hover:underline">
           Darke Clothing - Premium eCommerce Store 
@@ -101,7 +100,6 @@
         </div>
       </div>
     </section>
-
     <!-- Education -->
     <section class="border border-teal-200 rounded-lg p-6 shadow-sm">
       <h2 class="text-2xl font-semibold text-teal-700 mb-4">Education</h2>
@@ -116,7 +114,6 @@
         <p class="text-sm text-gray-600">Graduated 2016 • Ado-Ekiti, Nigeria</p>
       </div>
     </section>
-
     <!-- Certifications -->
     <section class="border border-teal-200 rounded-lg p-6 shadow-sm">
       <h2 class="text-2xl font-semibold text-teal-700 mb-4">Certifications</h2>
