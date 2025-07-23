@@ -31,7 +31,7 @@
       <div class="mb-4">
         <h3 class="font-semibold text-gray-800 mb-2">Frontend</h3>
         <div class="flex flex-wrap gap-2">
-          <span class="badge">HTML</span>
+          <span class="badge">HTML • </span>
           <span class="badge">CSS</span>
           <span class="badge">JavaScript</span>
           <span class="badge">React</span>
