@@ -57,7 +57,6 @@
         </div>
       </div>
     </section>
-
     <!-- Projects -->
     <section class="border border-teal-100 bg-white rounded-xl p-6 shadow">
       <h2 class="text-2xl font-semibold text-teal-700 mb-4">Featured Projects</h2>
