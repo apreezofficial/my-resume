@@ -126,7 +126,6 @@
         <li><strong>Full Stack Web Development</strong> – freeCodeCamp (2021)</li>
       </ul>
     </section>
-
     <!-- Extras -->
     <section class="border border-teal-200 rounded-lg p-6 shadow-sm">
       <h2 class="text-2xl font-semibold text-teal-700 mb-4">Additional Info</h2>
