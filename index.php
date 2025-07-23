@@ -41,7 +41,7 @@
       <div class="mb-4">
         <h3 class="font-semibold text-gray-800 mb-2">Backend</h3>
         <div class="flex flex-wrap gap-2">
-          <span class="badge">PHP</span>
+          <span class="badge">PHP • </span>
           <span class="badge">Laravel</span>
           <span class="badge">Blade Templates</span>
           <span class="badge">Livewire</span>
