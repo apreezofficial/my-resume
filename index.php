@@ -38,7 +38,6 @@
           <span class="px-3 py-1 rounded-full text-sm border border-teal-200 bg-teal-50 text-teal-700">React</span>
         </div>
       </div>
-
       <div class="mb-4">
         <h3 class="font-semibold text-gray-800 mb-2">Backend</h3>
         <div class="flex flex-wrap gap-2">
