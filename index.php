@@ -144,13 +144,11 @@
         </div>
       </div>
     </section>
-
     <!-- Footer -->
     <footer class="text-center text-sm text-gray-500 pt-6">
       References available upon request. © 2025
     </footer>
   </div>
-
   <script>
     lucide.createIcons();
   </script>
