@@ -25,7 +25,6 @@
         Full Stack Developer passionate about building scalable backend systems, beautiful interfaces, and secure digital platforms. Skilled in Laravel, Livewire, React, MySQL, and API integrations. Thrives on clean architecture and impactful user experiences.
       </p>
     </section>
-
     <!-- Tech Stack -->
     <section class="border border-teal-200 rounded-lg p-6 shadow-sm">
       <h2 class="text-2xl font-semibold text-teal-700 mb-4">Tech Stack</h2>
