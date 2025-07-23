@@ -117,10 +117,8 @@
         </div>
       </div>
     </section>
-
     <footer class="text-center text-sm text-gray-500 pt-6">References available upon request. © 2025</footer>
   </div>
-
   <style>
     .tag { @apply px-3 py-1 rounded-full text-sm border border-teal-200 bg-teal-50 text-teal-700; }
   </style>
