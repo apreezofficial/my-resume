@@ -20,11 +20,10 @@
       </div>
       <div class="flex justify-center gap-6 mt-2 text-teal-600">
         <a href="https://github.com/apreezofficial" target="_blank" aria-label="GitHub"><i data-lucide="github" class="w-5 h-5"></i></a>
-        <a href="https://linkedin.com/in/precious-adedokun" target="_blank" aria-label="LinkedIn"><i data-lucide="linkedin" class="w-5 h-5"></i></a>
-        <a href="https://twitter.com/apreezofficial" target="_blank" aria-label="Twitter"><i data-lucide="twitter" class="w-5 h-5"></i></a>
+        <a href="https://www.linkedin.com/in/precious-adedokun-b58221350" target="_blank" aria-label="LinkedIn"><i data-lucide="linkedin" class="w-5 h-5"></i></a>
+        <a href="https://x.com/apcodesphere" target="_blank" aria-label="Twitter"><i data-lucide="twitter" class="w-5 h-5"></i></a>
       </div>
     </div>
-
     <!-- Summary -->
     <section class="border border-teal-100 bg-white rounded-xl p-6 shadow">
       <h2 class="text-2xl font-semibold text-teal-700 mb-2">Summary</h2>
