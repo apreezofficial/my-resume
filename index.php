@@ -18,7 +18,6 @@
         <span>📍 Nigeria</span>
       </div>
     </div>
-
     <!-- Summary -->
     <section class="border border-teal-200 rounded-lg p-6 shadow-sm">
       <h2 class="text-2xl font-semibold text-teal-700 mb-2">Summary</h2>
