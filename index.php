@@ -74,7 +74,6 @@
         </div>
       </div>
     </section>
-
     <!-- Education -->
     <section class="border border-teal-100 bg-white rounded-xl p-6 shadow">
       <h2 class="text-2xl font-semibold text-teal-700 mb-4">Education</h2>
@@ -88,16 +87,6 @@
         <p class="text-teal-600">Senior Secondary School Certificate</p>
         <p class="text-sm text-gray-600">Graduated 2024 • Ado-Ekiti, Nigeria</p>
       </div>
-    </section>
-
-    <!-- Certifications -->
-    <section class="border border-teal-100 bg-white rounded-xl p-6 shadow">
-      <h2 class="text-2xl font-semibold text-teal-700 mb-4">Certifications</h2>
-      <ul class="list-disc list-inside space-y-2">
-        <li><strong>Google IT Automation with Python</strong> – Coursera (2023)</li>
-        <li><strong>AWS Certified Developer – Associate</strong> – Amazon Web Services (2023)</li>
-        <li><strong>Full Stack Web Development</strong> – freeCodeCamp (2022)</li>
-      </ul>
     </section>
 
     <!-- Extra -->
