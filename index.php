@@ -8,7 +8,6 @@
 </head>
 <body class="bg-white text-gray-800 p-6 font-sans">
   <div class="max-w-4xl mx-auto space-y-10">
-
     <!-- Header -->
     <div class="text-center space-y-2">
       <h1 class="text-4xl font-bold text-gray-900">Precious Adedokun</h1>
