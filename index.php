@@ -33,7 +33,7 @@
         <div class="flex flex-wrap gap-2">
           <span class="badge">HTML • </span>
           <span class="badge">CSS • </span>
-          <span class="badge">JavaScript</span>
+          <span class="badge">JavaScript • </span>
           <span class="badge">React</span>
         </div>
       </div>
