@@ -48,7 +48,6 @@
           <span class="badge">MySQL</span>
         </div>
       </div>
-
       <div>
         <h3 class="font-semibold text-gray-800 mb-2">Tools</h3>
         <div class="flex flex-wrap gap-2">
