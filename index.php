@@ -62,7 +62,7 @@
       <div class="space-y-6">
         <div>
           <a href="https://proforms.top" target="_blank" class="flex items-center gap-2 text-lg font-semibold text-teal-700 hover:underline">Proforms - Dynamic Form Builder <i data-lucide="arrow-up-right"></i></a>
-          <p>Create, share, and manage dynamic forms for data collection and workflow automation. Built with Laravel & Livewire.</p>
+          <p>Create, share, and manage dynamic forms for data collection and workflow automation. Built with Laravel, Next js & Livewire.</p>
         </div>
         <div>
           <a href="https://devbio.preciousadedokun.com.ng" target="_blank" class="flex items-center gap-2 text-lg font-semibold text-teal-700 hover:underline">DevBio - Portfolio Generator <i data-lucide="arrow-up-right"></i></a>
