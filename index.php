@@ -84,23 +84,78 @@
   }
 </style>
     <!-- Projects -->
-    <section class="border border-teal-100 bg-white rounded-xl p-6 shadow">
-      <h2 class="text-2xl font-semibold text-teal-700 mb-4">Featured Projects</h2>
-      <div class="space-y-6">
-        <div>
-          <a href="https://proforms.top" target="_blank" class="flex items-center gap-2 text-lg font-semibold text-teal-700 hover:underline">Proforms - Dynamic Form Builder <i data-lucide="arrow-up-right"></i></a>
-          <p>Create, share, and manage dynamic forms for data collection and workflow automation. Built with Laravel, Next js & Livewire.</p>
-        </div>
-        <div>
-          <a href="https://devbio.preciousadedokun.com.ng" target="_blank" class="flex items-center gap-2 text-lg font-semibold text-teal-700 hover:underline">DevBio - Portfolio Generator <i data-lucide="arrow-up-right"></i></a>
-          <p>Tool for developers to generate interactive portfolios with GitHub integration and AI-enhanced bios.</p>
-        </div>
-        <div>
-          <a href="https://drake.zya.me" target="_blank" class="flex items-center gap-2 text-lg font-semibold text-teal-700 hover:underline">Darke Clothing - Premium eCommerce Store <i data-lucide="arrow-up-right"></i></a>
-          <p>Modern clothing eCommerce store featuring product filtering, secure checkout, admin panel and mobile-first design.</p>
-        </div>
+<section class="border border-teal-100 bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg">
+  <h2 class="text-3xl font-bold text-teal-700 mb-6 flex items-center gap-2">
+    <i data-lucide="folder-kanban" class="w-6 h-6 text-teal-500"></i>
+    Featured Projects
+  </h2>
+
+  <div class="grid gap-6 sm:grid-cols-2">
+    <!-- Project Card -->
+    <div class="group border border-teal-50 rounded-xl p-6 bg-white hover:shadow-xl hover:-translate-y-1 transition-all">
+      <a href="https://proforms.top" target="_blank" class="flex items-center justify-between mb-2">
+        <span class="text-lg font-semibold text-teal-700 group-hover:underline">
+          Proforms - Dynamic Form Builder
+        </span>
+        <i data-lucide="arrow-up-right" class="w-5 h-5 text-teal-500"></i>
+      </a>
+      <p class="text-gray-600 mb-3">
+        Create, share, and manage dynamic forms for data collection and workflow automation.
+        Built with Laravel, Next.js & Livewire.
+      </p>
+      <div class="flex flex-wrap gap-2 text-sm">
+        <span class="tag">Laravel</span>
+        <span class="tag">Next.js</span>
+        <span class="tag">Livewire</span>
       </div>
-    </section>
+    </div>
+
+    <!-- Project Card -->
+    <div class="group border border-teal-50 rounded-xl p-6 bg-white hover:shadow-xl hover:-translate-y-1 transition-all">
+      <a href="https://devbio.preciousadedokun.com.ng" target="_blank" class="flex items-center justify-between mb-2">
+        <span class="text-lg font-semibold text-teal-700 group-hover:underline">
+          DevBio - Portfolio Generator
+        </span>
+        <i data-lucide="arrow-up-right" class="w-5 h-5 text-teal-500"></i>
+      </a>
+      <p class="text-gray-600 mb-3">
+        Tool for developers to generate interactive portfolios with GitHub integration
+        and AI-enhanced bios.
+      </p>
+      <div class="flex flex-wrap gap-2 text-sm">
+        <span class="tag">PHP</span>
+        <span class="tag">Tailwind</span>
+        <span class="tag">OpenAI API</span>
+      </div>
+    </div>
+
+    <!-- Project Card -->
+    <div class="group border border-teal-50 rounded-xl p-6 bg-white hover:shadow-xl hover:-translate-y-1 transition-all">
+      <a href="https://drake.zya.me" target="_blank" class="flex items-center justify-between mb-2">
+        <span class="text-lg font-semibold text-teal-700 group-hover:underline">
+          Darke Clothing - Premium eCommerce Store
+        </span>
+        <i data-lucide="arrow-up-right" class="w-5 h-5 text-teal-500"></i>
+      </a>
+      <p class="text-gray-600 mb-3">
+        Modern clothing eCommerce store featuring product filtering, secure checkout,
+        admin panel and mobile-first design.
+      </p>
+      <div class="flex flex-wrap gap-2 text-sm">
+        <span class="tag">Laravel</span>
+        <span class="tag">Livewire</span>
+        <span class="tag">MySQL</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tag Styling -->
+<style>
+  .tag {
+    @apply px-3 py-1 rounded-full text-xs font-medium border border-teal-100 bg-teal-50 text-teal-700 hover:bg-teal-100 transition;
+  }
+</style>
     <!-- Education -->
     <section class="border border-teal-100 bg-white rounded-xl p-6 shadow">
       <h2 class="text-2xl font-semibold text-teal-700 mb-4">Education</h2>
