@@ -102,7 +102,6 @@
           <span class="tag bg-gray-100">Open Source</span>
           <span class="tag bg-gray-100">Tech Blogging</span>
           <span class="tag bg-gray-100">Mentoring</span>
-          <span class="tag bg-gray-100">Photography</span>
         </div>
       </div>
     </section>
