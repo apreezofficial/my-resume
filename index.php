@@ -29,33 +29,7 @@
       <h2 class="text-2xl font-semibold text-teal-700 mb-2">Summary</h2>
       <p>Full Stack Developer passionate about building scalable backend systems, beautiful interfaces, and secure digital platforms. Skilled in Laravel, Livewire, React, MySQL, and API integrations. Thrives on clean architecture and impactful user experiences.</p>
     </section>
-    <!-- Tech Stack -->
-    <section class="border border-teal-100 bg-white rounded-xl p-6 shadow">
-      <h2 class="text-2xl font-semibold text-teal-700 mb-4">Tech Stack</h2>
-      <div class="grid sm:grid-cols-3 gap-4">
-        <div>
-          <h3 class="font-semibold text-gray-800 mb-2">Frontend</h3>
-          <div class="flex flex-wrap gap-2">
-            <span class="tag">HTML</span><span class="tag">CSS</span>
-            <span class="tag">JavaScript</span><span class="tag">React</span>
-          </div>
-        </div>
-        <div>
-          <h3 class="font-semibold text-gray-800 mb-2">Backend</h3>
-          <div class="flex flex-wrap gap-2">
-            <span class="tag">PHP</span><span class="tag">Laravel</span>
-            <span class="tag">Livewire</span><span class="tag">MySQL</span>
-          </div>
-        </div>
-        <div>
-          <h3 class="font-semibold text-gray-800 mb-2">Tools</h3>
-          <div class="flex flex-wrap gap-2">
-            <span class="tag">Git</span><span class="tag">Docker</span>
-            <span class="tag">Postman</span>
-          </div>
-        </div>
-      </div>
-    </section>
+    
     <!-- Projects -->
     <section class="border border-teal-100 bg-white rounded-xl p-6 shadow">
       <h2 class="text-2xl font-semibold text-teal-700 mb-4">Featured Projects</h2>
