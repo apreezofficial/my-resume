@@ -29,7 +29,60 @@
       <h2 class="text-2xl font-semibold text-teal-700 mb-2">Summary</h2>
       <p>Full Stack Developer passionate about building scalable backend systems, beautiful interfaces, and secure digital platforms. Skilled in Laravel, Livewire, React, MySQL, and API integrations. Thrives on clean architecture and impactful user experiences.</p>
     </section>
-    
+    <!-- Tech Stack -->
+<section class="border border-teal-100 bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg">
+  <h2 class="text-3xl font-bold text-teal-700 mb-6 flex items-center gap-2">
+    <i data-lucide="cpu" class="w-6 h-6 text-teal-500"></i>
+    Tech Stack
+  </h2>
+
+  <div class="grid sm:grid-cols-3 gap-6">
+    <!-- Frontend -->
+    <div class="p-4 rounded-xl border border-teal-50 bg-white hover:shadow-md transition">
+      <h3 class="font-semibold text-gray-800 mb-3 border-b border-teal-50 pb-2">
+        Frontend
+      </h3>
+      <div class="flex flex-wrap gap-2">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">React</span>
+      </div>
+    </div>
+
+    <!-- Backend -->
+    <div class="p-4 rounded-xl border border-teal-50 bg-white hover:shadow-md transition">
+      <h3 class="font-semibold text-gray-800 mb-3 border-b border-teal-50 pb-2">
+        Backend
+      </h3>
+      <div class="flex flex-wrap gap-2">
+        <span class="tag">PHP</span>
+        <span class="tag">Laravel</span>
+        <span class="tag">Livewire</span>
+        <span class="tag">MySQL</span>
+      </div>
+    </div>
+
+    <!-- Tools -->
+    <div class="p-4 rounded-xl border border-teal-50 bg-white hover:shadow-md transition">
+      <h3 class="font-semibold text-gray-800 mb-3 border-b border-teal-50 pb-2">
+        Tools
+      </h3>
+      <div class="flex flex-wrap gap-2">
+        <span class="tag">Git</span>
+        <span class="tag">Docker</span>
+        <span class="tag">Postman</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tag Styling -->
+<style>
+  .tag {
+    @apply px-3 py-1 rounded-full text-sm font-medium border border-teal-100 bg-teal-50 text-teal-700 shadow-sm hover:bg-teal-100 transition;
+  }
+</style>
     <!-- Projects -->
     <section class="border border-teal-100 bg-white rounded-xl p-6 shadow">
       <h2 class="text-2xl font-semibold text-teal-700 mb-4">Featured Projects</h2>
