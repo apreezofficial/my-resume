@@ -47,6 +47,7 @@
         <span class="tag">CSS</span>
         <span class="tag">JavaScript</span>
         <span class="tag">React</span>
+        <span class="tag">Next js</span>
       </div>
     </div>
 
