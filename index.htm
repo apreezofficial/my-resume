@@ -15,12 +15,10 @@
             -webkit-print-color-adjust: exact;
         }
 
-        /* Blue Accent for H1 and Labels */
         h1, .accent-text {
             color: #1d4ed8 !important; 
         }
 
-        /* Black Section Headers */
         h2.section-header {
             color: #1f2937 !important;
             font-size: 1.1rem;
@@ -37,11 +35,14 @@
             color: #1f2937;
             font-weight: 700;
             font-size: 0.95rem;
+            display: block; /* Ensures it stays on its own line */
         }
 
         .date-text {
             color: #6b7280;
             font-size: 0.85rem;
+            display: block; /* Ensures date stays under the title */
+            margin-bottom: 0.25rem;
         }
 
         @media print {
@@ -66,7 +67,7 @@
 <body class="bg-gray-100 min-h-screen">
 
     <div class="no-print bg-gray-800 text-white p-4 flex justify-between items-center shadow-md">
-        <p class="text-sm font-medium">Resume Preview (A4 Optimized)</p>
+        <p class="text-sm font-medium">Resume Preview</p>
         <button onclick="window.print()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded text-sm font-bold transition">
             Save as PDF
         </button>
@@ -74,7 +75,7 @@
 
     <div class="print-container bg-white mx-auto shadow-2xl w-full max-w-[210mm] min-h-[297mm] p-[10mm] md:p-[15mm]">
         
-        <header class="flex justify-between items-start mb-6">
+        <header class="flex flex-col md:flex-row justify-between items-start mb-6">
             <div>
                 <h1 class="text-3xl font-extrabold tracking-tight mb-1">Precious Adedokun</h1>
                 <p class="text-gray-500 font-medium text-sm">Software Engineer & Technical Team Lead</p>
@@ -82,6 +83,7 @@
             <div class="text-right text-[11px] leading-relaxed">
                 <p class="font-semibold text-gray-800">apreezofficial@gmail.com</p>
                 <p class="font-semibold text-gray-800">+234 906 477 9856</p>
+                <p><a href="https://preciousadedokun.com.ng" class="text-blue-600 font-bold hover:underline">https://preciousadedokun.com.ng/</a></p>
             </div>
         </header>
 
@@ -105,31 +107,23 @@
             <h2 class="section-header">Work Experience</h2>
             
             <div class="mb-4">
-                <div class="flex justify-between items-center">
-                    <p class="job-title">Technical Team Lead & Backend Developer at Mvpginger</p>
-                    <p class="date-text font-semibold">November 2025 – Present</p>
-                </div>
+                <p class="job-title">Technical Team Lead & Backend Developer at Mvpginger</p>
+                <p class="date-text">November 2025 – Present</p>
             </div>
 
             <div class="mb-4">
-                <div class="flex justify-between items-center">
-                    <p class="job-title">Founder & CEO at Proforms</p>
-                    <p class="date-text font-semibold">July 2025 – Present</p>
-                </div>
+                <p class="job-title">Founder & CEO at Proforms</p>
+                <p class="date-text">July 2025 – Present</p>
             </div>
 
             <div class="mb-4">
-                <div class="flex justify-between items-center">
-                    <p class="job-title">Backend Developer at Jekfarms</p>
-                    <p class="date-text font-semibold">September 2025 – January 2026</p>
-                </div>
+                <p class="job-title">Backend Developer at Jekfarms</p>
+                <p class="date-text">September 2025 – January 2026</p>
             </div>
 
             <div class="mb-4">
-                <div class="flex justify-between items-center">
-                    <p class="job-title">Backend Developer at Syticks</p>
-                    <p class="date-text font-semibold">May 2025 – November 2025</p>
-                </div>
+                <p class="job-title">Backend Developer at Syticks</p>
+                <p class="date-text">May 2025 – November 2025</p>
             </div>
         </section>
 
@@ -171,7 +165,6 @@
 
         <section>
             <h2 class="section-header">Featured Projects</h2>
-            
             <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-4">
                 <div>
                     <p class="project-title">Proforms</p>
@@ -195,18 +188,6 @@
                     <p class="project-title">Donia Luxre (Hair Accessories Store)</p>
                     <p class="text-[11px] text-gray-600 mb-0.5">Modern e-commerce platform with high-fidelity UI and seamless checkout.</p>
                     <p class="text-[10px] text-gray-800 font-bold"><span class="text-gray-400">Tech:</span> Next.js + TailwindCSS</p>
-                </div>
-
-                <div>
-                    <p class="project-title">Itrust Logistics</p>
-                    <p class="text-[11px] text-gray-600 mb-0.5">Logistics management system for real-time tracking and delivery automation.</p>
-                    <p class="text-[10px] text-gray-800 font-bold"><span class="text-gray-400">Tech:</span> Laravel + Next.js + TailwindCSS + Google Maps API</p>
-                </div>
-
-                <div>
-                    <p class="project-title">Drake Shopping Store</p>
-                    <p class="text-[11px] text-gray-600 mb-0.5">Full-scale e-commerce engine with advanced product filtering and admin panel.</p>
-                    <p class="text-[10px] text-gray-800 font-bold"><span class="text-gray-400">Tech:</span> PHP + Laravel + TailwindCSS + MySQL</p>
                 </div>
             </div>
         </section>
