@@ -13,8 +13,10 @@
             color: #4b5563; 
             line-height: 1.5;
             -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
         }
 
+        /* Essential for PDF consistency */
         h1, .accent-text {
             color: #1d4ed8 !important; 
         }
@@ -35,16 +37,17 @@
             color: #1f2937;
             font-weight: 700;
             font-size: 0.95rem;
-            display: block; /* Ensures it stays on its own line */
+            display: block;
         }
 
         .date-text {
             color: #6b7280;
             font-size: 0.85rem;
-            display: block; /* Ensures date stays under the title */
+            display: block;
             margin-bottom: 0.25rem;
         }
 
+        /* Print Logic: Forces A4 and removes browser headers/footers */
         @media print {
             @page {
                 size: A4;
@@ -58,22 +61,23 @@
             .no-print { display: none; }
             .print-container {
                 padding: 40px !important;
-                width: 100% !important;
+                width: 210mm !important;
+                height: 297mm !important;
                 box-shadow: none !important;
+                margin: 0 !important;
             }
         }
     </style>
 </head>
-<body class="bg-gray-100 min-h-screen">
+<body class="bg-gray-100 flex justify-center py-10">
 
-    <div class="no-print bg-gray-800 text-white p-4 flex justify-between items-center shadow-md">
-        <p class="text-sm font-medium">Resume Preview</p>
-        <button onclick="window.print()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded text-sm font-bold transition">
-            Save as PDF
+    <div class="no-print fixed top-5 right-5 z-50">
+        <button onclick="window.print()" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-bold shadow-2xl transition-all transform hover:scale-105">
+            Download PDF
         </button>
     </div>
 
-    <div class="print-container bg-white mx-auto shadow-2xl w-full max-w-[210mm] min-h-[297mm] p-[10mm] md:p-[15mm]">
+    <div class="print-container bg-white shadow-2xl w-[210mm] min-h-[297mm] p-[15mm]">
         
         <header class="flex flex-col md:flex-row justify-between items-start mb-6">
             <div>
@@ -168,7 +172,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-4">
                 <div>
                     <p class="project-title">Proforms</p>
-                    <p class="text-[11px] text-gray-600 mb-0.5">Advanced form management platform for seamless submission handling, workflow automation, and secure data collection.</p>
+                    <p class="text-[11px] text-gray-600 mb-0.5">Advanced form management platform for seamless submission handling and automation.</p>
                     <p class="text-[10px] text-gray-800 font-bold"><span class="text-gray-400">Tech:</span> Laravel + Livewire + TailwindCSS</p>
                 </div>
 
