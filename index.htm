@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Precious Adedokun - Software Engineer</title>
+    <title>Precious_Adedokun_Resume</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
@@ -12,29 +12,26 @@
             font-family: 'Inter', sans-serif;
             color: #4b5563; 
             line-height: 1.5;
+            -webkit-print-color-adjust: exact;
         }
 
         h1, h2, .accent-text {
-            color: #1d4ed8; 
+            color: #1d4ed8 !important; 
         }
 
         .section-header {
             color: #1f2937;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             font-weight: 700;
-            border-bottom: 1px solid #e5e7eb;
-            padding-bottom: 0.4rem;
-            margin-top: 1.5rem;
-            margin-bottom: 0.8rem;
+            border-bottom: 1.5px solid #e5e7eb;
+            padding-bottom: 0.2rem;
+            margin-top: 1.25rem;
+            margin-bottom: 0.6rem;
+            text-transform: uppercase;
+            letter-spacing: 0.025em;
         }
 
-        .job-title {
-            color: #1f2937;
-            font-weight: 700;
-            font-size: 0.95rem;
-        }
-
-        .project-title {
+        .job-title, .project-title {
             color: #1f2937;
             font-weight: 700;
             font-size: 0.95rem;
@@ -45,102 +42,125 @@
             font-size: 0.85rem;
         }
 
-        .tech-label {
-            font-weight: 700;
-            color: #1f2937;
-        }
-
         @media print {
+            @page {
+                size: A4;
+                margin: 0;
+            }
+            body {
+                padding: 0;
+                margin: 0;
+            }
             .no-print { display: none; }
-            body { padding: 0.5in; margin: 0; }
+            .print-container {
+                padding: 40px !important;
+                width: 100% !important;
+                box-shadow: none !important;
+            }
         }
     </style>
 </head>
-<body class="bg-white p-6 md:p-10">
+<body class="bg-gray-100 min-h-screen">
 
-    <div class="max-w-4xl mx-auto">
+    <div class="no-print bg-gray-800 text-white p-4 flex justify-between items-center shadow-md">
+        <p class="text-sm font-medium">Resume Preview (Optimized for A4)</p>
+        <button onclick="window.print()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded text-sm font-bold transition">
+            Download PDF
+        </button>
+    </div>
+
+    <div class="print-container bg-white mx-auto shadow-2xl w-full max-w-[210mm] min-h-[297mm] p-[10mm] md:p-[15mm]">
         
-        <header class="flex flex-col md:flex-row justify-between items-start mb-6">
+        <header class="flex justify-between items-start mb-6">
             <div>
-                <h1 class="text-3xl font-bold tracking-tight mb-1">Precious Adedokun</h1>
+                <h1 class="text-3xl font-extrabold tracking-tight mb-1">Precious Adedokun</h1>
+                <p class="text-blue-700 font-semibold text-sm">Software Engineer & Technical Team Lead</p>
             </div>
-            <div class="text-right text-sm space-y-0.5">
-                <p>apreezofficial@gmail.com</p>
-                <p>+2349064779856</p>
-                <p><a href="https://preciousadedokun.com.ng" class="hover:underline">https://preciousadedokun.com.ng/</a></p>
+            <div class="text-right text-[11px] leading-relaxed">
+                <p class="font-medium">apreezofficial@gmail.com</p>
+                <p class="font-medium">+234 906 477 9856</p>
+                <p><a href="https://preciousadedokun.com.ng" class="text-blue-600 underline">preciousadedokun.com.ng</a></p>
             </div>
         </header>
 
         <section>
             <h2 class="section-header">Summary</h2>
-            <p class="text-xs text-gray-600 text-justify leading-relaxed">
-                Creative Software Engineer with over 5 years of experience specializing in web development, backend architecture, and technical SEO. Building scalable products with great user experiences. Proficient in crafting responsive and interactive web applications using Laravel, Livewire, and React, focusing on modern UI/UX practices and optimal performance. Experienced in building robust server-side applications and APIs with PHP, Node.js, and MySQL, ensuring scalability and security. Creating cross-platform solutions for fintech, agro-tech, and e-commerce industries. Implementing and managing cloud solutions for efficient application deployment and infrastructure management.
+            <p class="text-[12px] text-gray-600 text-justify leading-relaxed">
+                Creative Software Engineer with over 5 years of experience specializing in web development, backend architecture, and technical SEO. Proficient in crafting responsive and interactive web applications using <strong>Laravel, Livewire, and React</strong>, focusing on modern UI/UX practices and optimal performance. Experienced in building robust server-side applications and APIs with PHP, Node.js, and MySQL. Proven track record in delivering cross-platform solutions for fintech, agro-tech, and e-commerce industries.
             </p>
         </section>
 
         <section>
             <h2 class="section-header">Online Presence</h2>
-            <div class="text-xs space-y-1">
-                <p><span class="accent-text font-semibold">GitHub:</span> <a href="https://github.com/apreezofficial" class="hover:underline text-gray-600">https://www.github.com/apreezofficial</a></p>
-                <p><span class="accent-text font-semibold">LinkedIn:</span> <a href="https://www.linkedin.com/in/precious-adedokun-b58221350" class="hover:underline text-gray-600">https://linkedin.com/in/precious-adedokun-b58221350</a></p>
-                <p><span class="accent-text font-semibold">Portfolio:</span> <a href="https://preciousadedokun.com.ng" class="hover:underline text-gray-600">https://preciousadedokun.com.ng/</a></p>
+            <div class="text-[12px] grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-1">
+                <p><span class="accent-text font-bold">GitHub:</span> <span class="text-gray-600">github.com/apreezofficial</span></p>
+                <p><span class="accent-text font-bold">LinkedIn:</span> <span class="text-gray-600">linkedin.com/in/precious-adedokun-b58221350</span></p>
             </div>
         </section>
 
         <section>
             <h2 class="section-header">Work Experience</h2>
             
-            <div class="mb-4">
-                <p class="job-title">Technical Team Lead & Backend Developer at Mvpginger</p>
-                <p class="date-text">November 2025 – Present</p>
-            </div>            
-            <div class="mb-4">
-                <p class="job-title">Founder & CEO at Proforms</p>
-                <p class="date-text">July 2025 – Present</p>
-            </div>
-            <div class="mb-4">
-                <p class="job-title">Backend Developer at Jekfarms</p>
-                <p class="date-text">September 2025 – January 2026</p>
+            <div class="mb-3">
+                <div class="flex justify-between items-center">
+                    <p class="job-title">Technical Team Lead & Backend Developer at Mvpginger</p>
+                    <p class="date-text font-semibold">Nov 2025 – Present</p>
+                </div>
             </div>
 
-            <div class="mb-4">
-                <p class="job-title">Backend Developer at Syticks</p>
-                <p class="date-text">May 2025 – November 2025</p>
+            <div class="mb-3">
+                <div class="flex justify-between items-center">
+                    <p class="job-title">Founder & CEO at Proforms</p>
+                    <p class="date-text font-semibold">July 2025 – Present</p>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <div class="flex justify-between items-center">
+                    <p class="job-title">Backend Developer at Jekfarms</p>
+                    <p class="date-text font-semibold">Sept 2025 – Jan 2026</p>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <div class="flex justify-between items-center">
+                    <p class="job-title">Backend Developer at Syticks</p>
+                    <p class="date-text font-semibold">May 2025 – Nov 2025</p>
+                </div>
             </div>
         </section>
 
         <section>
             <h2 class="section-header">Technical Skills</h2>
-            <div class="grid grid-cols-3 gap-4 text-xs">
+            <div class="grid grid-cols-3 gap-6 text-[11px]">
                 <div>
-                    <h3 class="accent-text font-bold mb-1">Programming</h3>
-                    <ul class="text-gray-600 space-y-0.5">
-                        <li>HTML / CSS / JS</li>
-                        <li>PHP / Laravel</li>
-                        <li>Livewire</li>
+                    <h3 class="accent-text font-bold mb-1 uppercase tracking-wider">Programming</h3>
+                    <ul class="text-gray-700 space-y-0.5">
+                        <li>HTML5 / CSS3 / JavaScript</li>
+                        <li>PHP / Laravel / Livewire</li>
                         <li>React.js / Next.js</li>
                         <li>Node.js / Python</li>
-                        <li>MySQL / MongoDB</li>
+                        <li>MySQL / MongoDB / Redis</li>
                     </ul>
                 </div>
                 <div>
-                    <h3 class="accent-text font-bold mb-1">Tools</h3>
-                    <ul class="text-gray-600 space-y-0.5">
-                        <li>Git / GitHub</li>
-                        <li>Docker / CI/CD</li>
+                    <h3 class="accent-text font-bold mb-1 uppercase tracking-wider">Tools</h3>
+                    <ul class="text-gray-700 space-y-0.5">
+                        <li>Git / GitHub / CI/CD</li>
+                        <li>Docker / Postman</li>
                         <li>TailwindCSS / Bootstrap</li>
-                        <li>Postman / Figma</li>
-                        <li>SEO Auditing Tools</li>
+                        <li>Figma / SEO Auditing</li>
+                        <li>Twilio / Google Maps API</li>
                     </ul>
                 </div>
                 <div>
-                    <h3 class="accent-text font-bold mb-1">Soft Skills</h3>
-                    <ul class="text-gray-600 space-y-0.5">
+                    <h3 class="accent-text font-bold mb-1 uppercase tracking-wider">Soft Skills</h3>
+                    <ul class="text-gray-700 space-y-0.5">
+                        <li>Technical Leadership</li>
                         <li>Problem Solving</li>
-                        <li>Leadership</li>
-                        <li>Communication</li>
+                        <li>Agile Methodology</li>
                         <li>Team Management</li>
-                        <li>Creativity</li>
+                        <li>Effective Communication</li>
                     </ul>
                 </div>
             </div>
@@ -149,50 +169,54 @@
         <section>
             <h2 class="section-header">Featured Projects</h2>
             
-            <div class="mb-4">
-                <p class="project-title">Proforms</p>
-                <p class="text-xs text-gray-600 mb-0.5">Advanced form management platform for seamless submission handling, workflow automation, and secure data collection.</p>
-                <p class="text-[10px]"><span class="tech-label">Technologies:</span> Laravel + Livewire + TailwindCSS</p>
-            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-3">
+                <div>
+                    <p class="project-title">Proforms</p>
+                    <p class="text-[11px] text-gray-600 mb-0.5">Form management platform for seamless submission handling and automation.</p>
+                    <p class="text-[10px] text-gray-800 font-bold">Laravel, Livewire, TailwindCSS</p>
+                </div>
 
-            <div class="mb-4">
-                <p class="project-title">Jekfarms (Agro Fintech App)</p>
-                <p class="text-xs text-gray-600 mb-0.5">Fintech solution tailored for agricultural investments and farm management.</p>
-                <p class="text-[10px]"><span class="tech-label">Technologies:</span> PHP + MySQL + API Integration</p>
-            </div>
+                <div>
+                    <p class="project-title">Jekfarms (Agro Fintech)</p>
+                    <p class="text-[11px] text-gray-600 mb-0.5">Fintech solution tailored for agricultural investments and management.</p>
+                    <p class="text-[10px] text-gray-800 font-bold">PHP, MySQL, API Integration</p>
+                </div>
 
-            <div class="mb-4">
-                <p class="project-title">36homeshub (Real Estate Mobile App)</p>
-                <p class="text-xs text-gray-600 mb-0.5">Comprehensive real estate platform for property listing and virtual tours.</p>
-                <p class="text-[10px]"><span class="tech-label">Technologies:</span> React Native + PHP + Mysql , Redis, Twilo</p>
-            </div>
+                <div>
+                    <p class="project-title">36homeshub (Real Estate)</p>
+                    <p class="text-[11px] text-gray-600 mb-0.5">Real estate platform for property listing and virtual tours.</p>
+                    <p class="text-[10px] text-gray-800 font-bold">React Native, PHP, MySQL, Redis, Twilio</p>
+                </div>
 
-            <div class="mb-4">
-                <p class="project-title">Donia Luxre (Hair Accessories Store)</p>
-                <p class="text-xs text-gray-600 mb-0.5">Modern e-commerce platform with high-fidelity UI and seamless checkout.</p>
-                <p class="text-[10px]"><span class="tech-label">Technologies:</span> Next.js + TailwindCSS</p>
-            </div>
+                <div>
+                    <p class="project-title">Donia Luxre</p>
+                    <p class="text-[11px] text-gray-600 mb-0.5">Modern e-commerce platform with high-fidelity UI and checkout.</p>
+                    <p class="text-[10px] text-gray-800 font-bold">Next.js, TailwindCSS</p>
+                </div>
 
-            <div class="mb-4">
-                <p class="project-title">Itrust Logistics</p>
-                <p class="text-xs text-gray-600 mb-0.5">Efficient logistics management system for real-time tracking and delivery automation.</p>
-                <p class="text-[10px]"><span class="tech-label">Technologies:</span> Laravel + Nextjs + Tailwindcss + Google Maps API</p>
-            </div>
+                <div>
+                    <p class="project-title">Itrust Logistics</p>
+                    <p class="text-[11px] text-gray-600 mb-0.5">Logistics management for real-time tracking and delivery automation.</p>
+                    <p class="text-[10px] text-gray-800 font-bold">Laravel, Next.js, Google Maps API</p>
+                </div>
 
-            <div class="mb-4">
-                <p class="project-title">Drake Shopping Store</p>
-                <p class="text-xs text-gray-600 mb-0.5">Full-scale e-commerce engine with advanced product filtering and admin panel.</p>
-                <p class="text-[10px]"><span class="tech-label">Technologies:</span> PHP + Laravel +  Tailwindcs + MySQL</p>
+                <div>
+                    <p class="project-title">Drake Shopping Store</p>
+                    <p class="text-[11px] text-gray-600 mb-0.5">E-commerce engine with advanced product filtering and admin panel.</p>
+                    <p class="text-[10px] text-gray-800 font-bold">PHP, Laravel, MySQL</p>
+                </div>
             </div>
         </section>
 
-        <section class="mb-10">
-            <h2 class="section-header">Languages</h2>
-            <ul class="list-disc list-inside text-xs text-gray-600">
-                <li>English - Native</li>
-            </ul>
-        </section>
+        <footer class="mt-12 border-t border-gray-100 pt-4 flex justify-between items-center text-[10px] text-gray-400">
+            <p>English - Native Speaker</p>
+            <p>References available upon request</p>
+        </footer>
     </div>
 
+    <script>
+        // Helpful tip: When the print dialog opens, set 'Margins' to 'None' or 'Default' 
+        // and check 'Background Graphics' if colors don't show.
+    </script>
 </body>
 </html>
