@@ -16,10 +16,12 @@
             print-color-adjust: exact;
         }
 
+        /* Name and Accent Labels in Blue */
         h1, .accent-text {
             color: #1d4ed8 !important; 
         }
 
+        /* Section Headers in Black */
         h2.section-header {
             color: #1f2937 !important;
             font-size: 1.1rem;
@@ -70,7 +72,7 @@
 <body class="bg-gray-100 flex justify-center py-10">
 
     <div class="no-print fixed top-5 right-5 z-50">
-        <button onclick="window.print()" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-bold shadow-2xl transition-all transform hover:scale-105">
+        <button onclick="window.print()" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-bold shadow-2xl transition-all">
             Download PDF
         </button>
     </div>
@@ -105,25 +107,27 @@
 
         <section>
             <h2 class="section-header">Work Experience</h2>
-            <div class="mb-4">
-                <p class="job-title">Technical Team Lead & Backend Developer at Mvpginger</p>
-                <p class="date-text">November 2025 – Present</p>
-            </div>
-            <div class="mb-4">
-                <p class="job-title">Founder & CEO at Proforms</p>
-                <p class="date-text">July 2025 – Present</p>
-            </div>
-            <div class="mb-4">
-                <p class="job-title">Backend Developer at Jekfarms</p>
-                <p class="date-text">September 2025 – January 2026</p>
-            </div>
-            <div class="mb-4">
-                <p class="job-title">Backend Developer at Syticks</p>
-                <p class="date-text">May 2025 – November 2025</p>
-            </div>
-            <div class="mb-4">
-                <p class="job-title">Backend Developer at Aafri Ride</p>
-                <p class="date-text">March 2025 – August 2025</p>
+            <div class="space-y-4">
+                <div>
+                    <p class="job-title">Technical Team Lead & Backend Developer at Mvpginger</p>
+                    <p class="date-text">November 2025 – Present</p>
+                </div>
+                <div>
+                    <p class="job-title">Founder & CEO at Proforms</p>
+                    <p class="date-text">July 2025 – Present</p>
+                </div>
+                <div>
+                    <p class="job-title">Backend Developer at Jekfarms</p>
+                    <p class="date-text">September 2025 – January 2026</p>
+                </div>
+                <div>
+                    <p class="job-title">Backend Developer at Syticks</p>
+                    <p class="date-text">May 2025 – November 2025</p>
+                </div>
+                <div>
+                    <p class="job-title">Backend Developer at Aafri Ride</p>
+                    <p class="date-text">March 2025 – August 2025</p>
+                </div>
             </div>
         </section>
 
@@ -173,16 +177,29 @@
 
         <section>
             <h2 class="section-header">Featured Projects</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-4">
+            <div class="space-y-4">
                 <div>
                     <p class="project-title">Proforms</p>
                     <p class="text-[11px] text-gray-600 mb-0.5">Advanced form management platform for seamless submission handling and automation.</p>
                     <p class="text-[10px] text-gray-800 font-bold">Laravel + Livewire + TailwindCSS</p>
                 </div>
+
                 <div>
                     <p class="project-title">Jekfarms (Agro Fintech App)</p>
                     <p class="text-[11px] text-gray-600 mb-0.5">Fintech solution tailored for agricultural investments and farm management.</p>
                     <p class="text-[10px] text-gray-800 font-bold">PHP + MySQL + API Integration</p>
+                </div>
+
+                <div>
+                    <p class="project-title">36homeshub (Real Estate)</p>
+                    <p class="text-[11px] text-gray-600 mb-0.5">Comprehensive real estate platform for property listing and virtual tours.</p>
+                    <p class="text-[10px] text-gray-800 font-bold">React Native + PHP + MySQL</p>
+                </div>
+
+                <div>
+                    <p class="project-title">Donia Luxre</p>
+                    <p class="text-[11px] text-gray-600 mb-0.5">Modern e-commerce platform with high-fidelity UI and seamless checkout.</p>
+                    <p class="text-[10px] text-gray-800 font-bold">Next.js + TailwindCSS</p>
                 </div>
             </div>
         </section>
