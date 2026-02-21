@@ -16,7 +16,6 @@
             print-color-adjust: exact;
         }
 
-        /* Essential for PDF consistency */
         h1, .accent-text {
             color: #1d4ed8 !important; 
         }
@@ -47,7 +46,6 @@
             margin-bottom: 0.25rem;
         }
 
-        /* Print Logic: Forces A4 and removes browser headers/footers */
         @media print {
             @page {
                 size: A4;
@@ -79,14 +77,12 @@
 
     <div class="print-container bg-white shadow-2xl w-[210mm] min-h-[297mm] p-[15mm]">
         
-        <header class="flex flex-col md:flex-row justify-between items-start mb-6">
-            <div>
-                <h1 class="text-3xl font-extrabold tracking-tight mb-1">Precious Adedokun</h1>
-                <p class="text-gray-500 font-medium text-sm">Software Engineer & Technical Team Lead</p>
-            </div>
-            <div class="text-right text-[11px] leading-relaxed">
-                <p class="font-semibold text-gray-800">apreezofficial@gmail.com</p>
-                <p class="font-semibold text-gray-800">+234 906 477 9856</p>
+        <header class="text-center mb-8">
+            <h1 class="text-4xl font-extrabold tracking-tight mb-1">Precious Adedokun</h1>
+            <p class="text-gray-500 font-medium text-lg mb-2">Software Engineer & Technical Team Lead</p>
+            <div class="text-[12px] leading-relaxed">
+                <p class="font-bold text-gray-800">apreezofficial@gmail.com</p>
+                <p class="font-bold text-gray-800">+234 906 477 9856</p>
                 <p><a href="https://preciousadedokun.com.ng" class="text-blue-600 font-bold hover:underline">https://preciousadedokun.com.ng/</a></p>
             </div>
         </header>
@@ -196,7 +192,7 @@
             </div>
         </section>
 
-        <footer class="mt-8 pt-6 border-t border-gray-100 flex justify-between items-center text-[10px] text-gray-400">
+        <footer class="mt-auto pt-6 border-t border-gray-100 flex justify-between items-center text-[10px] text-gray-400">
             <p>English - Native Speaker</p>
             <p>References available upon request</p>
         </footer>
