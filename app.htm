@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precious_Adedokun_Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #4b5563; 
+            line-height: 1.4;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        h1, .accent-text {
+            color: #1d4ed8 !important; 
+        }
+
+        h2.section-header {
+            color: #1f2937 !important;
+            font-size: 1rem;
+            font-weight: 700;
+            border-bottom: 1.5px solid #e5e7eb;
+            padding-bottom: 0.1rem;
+            margin-top: 1rem;
+            margin-bottom: 0.6rem;
+            text-transform: uppercase;
+            letter-spacing: 0.025em;
+        }
+
+        .job-title, .project-title {
+            color: #1f2937;
+            font-weight: 700;
+            font-size: 0.9rem;
+            display: block;
+        }
+
+        .date-text {
+            color: #6b7280;
+            font-size: 0.8rem;
+            display: block;
+            margin-bottom: 0.1rem;
+        }
+
+        @media print {
+            @page {
+                size: A4;
+                margin: 0;
+            }
+            body {
+                padding: 0;
+                margin: 0;
+                background-color: white;
+            }
+            .no-print { display: none; }
+            .print-container {
+                padding: 30px !important;
+                width: 210mm !important;
+                height: 297mm !important;
+                box-shadow: none !important;
+                margin: 0 !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex justify-center py-10">
+    <div class="no-print fixed top-5 right-5 z-50">
+        <button onclick="window.print()" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-bold shadow-2xl transition-all">
+            Download PDF
+        </button>
+    </div>
+
+    <div class="print-container bg-white shadow-2xl w-[210mm] min-h-[297mm] p-[12mm]">
+        
+        <header class="text-center mb-6">
+            <h1 class="text-4xl font-extrabold tracking-tight mb-1">Precious Adedokun</h1>
+            <p class="text-gray-500 font-medium text-lg mb-1">Software Engineer & Technical Team Lead</p>
+            <div class="text-[11px] leading-relaxed">
+                <p class="font-bold text-gray-800">apreezofficial@gmail.com | +234 906 477 9856</p>
+                <p><a href="https://preciousadedokun.com.ng" class="text-blue-600 font-bold hover:underline">https://preciousadedokun.com.ng/</a></p>
+            </div>
+        </header>
+
+        <section>
+            <h2 class="section-header">Summary</h2>
+            <p class="text-[11px] text-gray-600 text-justify">
+                Creative Software Engineer with 5+ years of experience in web and <strong>cross-platform mobile development (React Native)</strong>. Expert in <strong>Laravel, Livewire, and React</strong>, focusing on backend architecture and technical SEO. Proven track record in leading technical teams and delivering scalable fintech, e-commerce, and SaaS solutions with a focus on high performance and security.
+            </p>
+        </section>
+
+        <div class="grid grid-cols-2 gap-4">
+            <section>
+                <h2 class="section-header">Online Presence</h2>
+                <div class="text-[10px] space-y-0.5">
+                    <p><span class="accent-text font-semibold">GitHub:</span> <a href="https://www.github.com/apreezofficial" class="hover:underline">github.com/apreezofficial</a></p>
+                    <p><span class="accent-text font-semibold">LinkedIn:</span> <a href="https://www.linkedin.com/in/precious-adedokun-b58221350" class="hover:underline">linkedin.com/in/precious-adedokun</a></p>
+                </div>
+            </section>
+            <section>
+                <h2 class="section-header">Languages</h2>
+                <p class="text-[10px] text-gray-600">English - Native Speaker</p>
+            </section>
+        </div>
+
+        <section>
+            <h2 class="section-header">Work Experience</h2>
+            <div class="grid grid-cols-2 gap-x-6 gap-y-2">
+                <div>
+                    <p class="job-title">Technical Team Lead at Mvpginger</p>
+                    <p class="date-text">Nov 2025 – Present</p>
+                </div>
+                <div>
+                    <p class="job-title">Founder & CEO at Proforms</p>
+                    <p class="date-text">July 2025 – Present</p>
+                </div>
+                <div>
+                    <p class="job-title">Backend Developer at Jekfarms</p>
+                    <p class="date-text">Sept 2025 – Jan 2026</p>
+                </div>
+                <div>
+                    <p class="job-title">Backend Developer at Syticks</p>
+                    <p class="date-text">May 2025 – Nov 2025</p>
+                </div>
+                <div>
+                    <p class="job-title">Backend Developer at Aafri Ride</p>
+                    <p class="date-text">March 2025 – Aug 2025</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-header">Technical Skills</h2>
+            <div class="grid grid-cols-3 gap-4 text-[10px]">
+                <div>
+                    <h3 class="accent-text font-bold mb-1 uppercase tracking-wider">Programming</h3>
+                    <ul class="text-gray-700 space-y-0.5">
+                        <li>PHP / Laravel / Livewire</li>
+                        <li><strong>React Native (Mobile)</strong></li>
+                        <li>JavaScript / TypeScript</li>
+                        <li>React.js / Next.js</li>
+                        <li>MySQL / PostgreSQL</li>
+                        <li>jQuery / HTML / CSS</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="accent-text font-bold mb-1 uppercase tracking-wider">Tools</h3>
+                    <ul class="text-gray-700 space-y-0.5">
+                        <li>Git / GitHub / CI/CD</li>
+                        <li>SEO Auditing / Docker</li>
+                        <li>Postman / Figma / Expo</li>
+                        <li>TailwindCSS / Bootstrap</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="accent-text font-bold mb-1 uppercase tracking-wider">Soft Skills</h3>
+                    <ul class="text-gray-700 space-y-0.5">
+                        <li>Technical Leadership</li>
+                        <li>Team Management</li>
+                        <li>Problem Solving</li>
+                        <li>Agile Methodology</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-header">Featured Projects</h2>
+            <div class="space-y-3">
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <p class="project-title">Agreonpay (Fintech Mobile)</p>
+                        <p class="text-[10px] text-gray-600">Mobile fintech for secure payments and tracking.</p>
+                        <p class="text-[9px] text-gray-800 font-bold">React Native + Laravel | agreonpay.com.ng</p>
+                    </div>
+                    <div>
+                        <p class="project-title">Proforms (SaaS)</p>
+                        <p class="text-[10px] text-gray-600">Advanced form and lead management platform.</p>
+                        <p class="text-[9px] text-gray-800 font-bold">Laravel + Livewire + TailwindCSS</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <p class="project-title">Jobora (Job App)</p>
+                        <p class="text-[10px] text-gray-600">Cross-platform app connecting talent to roles.</p>
+                        <p class="text-[9px] text-gray-800 font-bold">React Native + Laravel API</p>
+                    </div>
+                    <div>
+                        <p class="project-title">Cookery (Food E-commerce)</p>
+                        <p class="text-[10px] text-gray-600">Food delivery app with menu & checkout logic.</p>
+                        <p class="text-[9px] text-gray-800 font-bold">React Native + PHP + MySQL</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <p class="project-title">36homeshub (Real Estate)</p>
+                        <p class="text-[10px] text-gray-600">Property listing app with virtual tour filters.</p>
+                        <p class="text-[9px] text-gray-800 font-bold">React Native + PHP + MySQL</p>
+                    </div>
+                    <div>
+                        <p class="project-title">Jekfarms (Agro Fintech)</p>
+                        <p class="text-[10px] text-gray-600">Investment platform for agricultural assets.</p>
+                        <p class="text-[9px] text-gray-800 font-bold">PHP + MySQL + API Integration</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="mt-auto pt-4 border-t border-gray-100 flex justify-between items-center text-[9px] text-gray-400">
+            <p>© 2026 Precious Adedokun</p>
+            <p>References available upon request</p>
+        </footer>
+    </div>
+</body>
+</html>
